@@ -1,0 +1,167 @@
+body {
+  background-image: url('../images/bg-header-mobile.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+
+main {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main-header {
+  margin: 6rem 0;
+}
+
+h1 {
+  width: 40%;
+  margin: 3rem auto;
+}
+
+h2, h3 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.main-header > div, .feature-snippets > div {
+  margin: 1rem 0;
+}
+
+.main-header > a {
+  display: block;
+  width: 100%;
+  background-color: hsl(171, 66%, 44%);
+  margin: 2rem 0;
+  border-radius: 500px;
+  padding: 1rem;
+  color: hsl(0, 0%, 100%);
+  border-bottom: 3px solid hsl(171, 66%, 35%);
+  box-shadow:  0 .5rem 1rem hsla(171, 66%, 44%, .15);
+}
+
+.main-header > a:last-of-type {
+  background-color: hsl(233, 100%, 69%);
+  border-bottom-color: hsl(233, 100%, 60%);
+  box-shadow:  0 .5rem 1rem hsla(223, 100%, 69%, .15);
+
+}
+
+.feature-snippets {
+  margin: 6rem 0;
+}
+
+#img-snippets, #img-access {
+  margin: 3rem auto;
+}
+
+.feature-pros > li {
+  margin: 3rem auto;
+}
+
+.feature-pros > li > div {
+  margin: 1rem auto;
+  line-height: 1.5rem;
+}
+
+.feature-pros > li > img {
+  margin: 1.5rem auto;
+}
+
+.list-companies-app {
+  margin: 6rem 0;
+}
+
+.list-companies-app > li {
+  margin: 3rem 0;
+}
+
+#icon-blacklists {
+  width: 44px;
+  height: 40px;
+}
+
+#icon-snippets {
+  width: 36px;
+  height: 32px;
+}
+
+#icon-preview {
+  width: 50px;
+  height: 32px;
+}
+
+#logo-google {
+  width: 165px;
+  height: 49px;
+}
+
+#logo-ibm {
+  width: 139px;
+  height: 51px;
+}
+
+#logo-microsoft {
+  width: 161px;
+  height: 35px;
+}
+
+#logo-hp {
+  width: 135px;
+  height: 56px;
+}
+
+#logo-vector-graphics {
+  width: 125px;
+  height: 30px;
+}
+
+footer {
+  background-color: hsl(0, 0%, 97%);
+  color:hsl(210, 10%, 33%);
+  padding-bottom: 3rem;
+}
+
+#footer-logo {
+  width: 15%;
+  margin: 3rem 0;
+}
+
+.list-helpful-links > li {
+  margin-bottom: 1.5rem;
+}
+
+.list-social-media {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 3rem auto 0 auto;
+}
+
+#icon-facebook {
+  width: 24px;
+  height: 24px;
+}
+
+#icon-twitter {
+  width: 24px;
+  height: 24px;
+}
+
+#icon-instagram {
+  width: 24px;
+  height: 20px;
+}
+
