@@ -139,7 +139,7 @@ h3 {
 
 footer {
   background-color: hsl(0, 0%, 97%);
-  color:hsl(210, 10%, 33%);
+  color: hsl(210, 10%, 33%);
   padding-bottom: 3rem;
 }
 
@@ -166,4 +166,143 @@ footer {
 .list-social-media > li > svg:hover > path {
   fill: hsl(171, 66%, 44%);
   cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  body {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 767px) {
+  body {
+    background-image: url('../images/bg-header-desktop.png');
+  }
+
+  .main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    width: 15%;
+  }
+
+  h2 {
+    flex: 1 100%;
+  }
+
+  .main-header > div {
+    flex: 1 100%;
+  }
+
+  .main-header > a {
+    width: 45%;
+  }
+
+  .feature-snippets {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6rem 0;
+  }
+
+  .feature-snippets:nth-of-type(3) {
+    margin-bottom: 0;
+  }
+
+  .feature-snippets:nth-of-type(4) {
+    margin-top: 3rem;
+  }
+
+  h3 {
+    flex: 1 100%;
+  }
+
+  .feature-snippets > div {
+    width: 55%;
+    margin: 1rem auto;
+  }
+
+  #img-snippets {
+    width: 55%;
+    margin-left: -4rem;
+    margin-right: 0;
+  }
+
+  .feature-pros {
+    width: 30%;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    text-align: start;
+  }
+
+  .feature-pros > li > div {
+    margin: 0 0 1rem 0;
+  }
+
+  #img-access {
+    width: 75%;
+    margin: 3rem auto 0 auto;
+  }
+
+  #workflow-list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .feature-pros > li {
+    margin: 0;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  #footer-logo {
+    width: 6%;
+    margin: 0 5rem;
+  }
+
+  .list-helpful-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .list-helpful-links > li {
+    margin: .25rem 4rem .25rem 0;
+  }
+
+  .list-social-media {
+    width: 15%;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .list-companies-app {
+    margin: 6rem auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .list-companies-app > li {
+    margin: 0;
+  }
+
+  #footer-logo {
+    width: 4%;
+  }
 }
