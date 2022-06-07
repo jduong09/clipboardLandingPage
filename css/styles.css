@@ -14,7 +14,7 @@ main {
 }
 
 .main-header {
-  margin: 6rem 0;
+  margin: 7rem 0 9rem 0;
 }
 
 h1 {
@@ -52,23 +52,32 @@ h3 {
   box-shadow:  0 .5rem 1rem hsla(171, 66%, 44%, .15);
 }
 
+.main-header > a:hover {
+  background-color: hsl(171, 66%, 53%);
+  border-bottom-color: hsl(171, 66%, 35%);
+}
+
 .main-header > a:last-of-type {
   background-color: hsl(233, 100%, 69%);
   border-bottom-color: hsl(233, 100%, 60%);
   box-shadow:  0 .5rem 1rem hsla(223, 100%, 69%, .15);
+}
 
+.main-header > a:last-of-type:hover {
+  background-color: hsl(233, 100%, 80%);
+  border-bottom-color: hsl(233, 100%, 69%)
 }
 
 .feature-snippets {
-  margin: 6rem 0;
+  margin: 9rem 0;
 }
 
 #img-snippets, #img-access {
-  margin: 3rem auto;
+  margin: 3rem auto 0 auto;
 }
 
 .feature-pros > li {
-  margin: 3rem auto;
+  margin: 3rem 0;
 }
 
 .feature-pros > li > div {
@@ -81,11 +90,11 @@ h3 {
 }
 
 .list-companies-app {
-  margin: 6rem 0;
+  margin: 9rem 0;
 }
 
 .list-companies-app > li {
-  margin: 3rem 0;
+  margin-bottom: 3rem;
 }
 
 #icon-blacklists {
@@ -143,6 +152,10 @@ footer {
   margin-bottom: 1.5rem;
 }
 
+.list-helpful-links > li > a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
 .list-social-media {
   display: flex;
   justify-content: space-around;
@@ -150,18 +163,7 @@ footer {
   margin: 3rem auto 0 auto;
 }
 
-#icon-facebook {
-  width: 24px;
-  height: 24px;
+.list-social-media > li > svg:hover > path {
+  fill: hsl(171, 66%, 44%);
+  cursor: pointer;
 }
-
-#icon-twitter {
-  width: 24px;
-  height: 24px;
-}
-
-#icon-instagram {
-  width: 24px;
-  height: 20px;
-}
-
